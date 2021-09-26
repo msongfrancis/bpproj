@@ -1,0 +1,25 @@
+Examining Gentrification Vulnerability in Brooklyn Park, Minnesota
+
+Getting Started
+Ensure that all data files and jupyter notebook are located within the same folder and are unzipped. 
+
+Summary
+This study will examine possible green gentrification in Brooklyn Park, MN. The objectives of this study are to identify census block groups in Brooklyn Park with high vulnerability to gentrification, examine median housing value of block groups surrounding parks, and lastly, if any of the high vulnerable block groups are located near parks, an indication of possible green gentrification. Using census data from 2000 and 2018, a gentrification vulnerability index is computed for each census tract from the following demographics: median household income, median household value change, proportion non-white, and bachelor of arts education attainment. 
+
+Limitations
+The data and column labels are specific to census data and the American Community Survey. Additionally, the gentrification vulnerability index calculated equally weighs each demographic variable and may not be an accurate index. Labels are not presented on maps.  
+
+Deployment
+Code is meant to run in a consecutive order. Please refer to comments for descriptions of variables. 
+
+Usage
+Code will calculate gentrification vulnerability index for census data for a selected year and compare the median housing value with census data from another year. Outputs include: map and dataframe of census blocks with high gentrification vulnerability index and in close proximity to a park, and histrograms of demographic variables. 
+
+Author:
+Maisong Francis
+Contact: leex6165@umn.edu
+
+Acknowledgments:
+Shapefiles in courtesy of John Nerge, Brooklyn Park, MN. 
+
+Steven Manson, Jonathan Schroeder, David Van Riper, and Steven Ruggles. IPUMS National Historical Geographic Information System: Version 14.0 [Database]. Minneapolis, MN: IPUMS. 2019. http://doi.org/10.18128/D050.V14.0
